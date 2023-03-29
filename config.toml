@@ -1,0 +1,34 @@
+title = "colin.cafe"
+baseURL = 'https://colin.cafe/'
+languageCode = 'fr-FR'
+theme = "hugo-blog-awesome"
+
+# Enable emojis globally
+enableEmoji = true
+
+# set markup.highlight.noClasses=false to enable code highlight
+[markup]
+  [markup.highlight]
+    noClasses = false
+  [markup.goldmark.renderer]
+    unsafe = true
+
+[menu]
+  [[menu.main]]
+    # The page reference (pageRef) is useful for menu highlighting
+    # When pageRef is set, setting `url` is optional; it will be used as a fallback if the page is >
+    pageRef="/"
+    name = 'accueil'
+    url = '/'
+    weight = 10
+
+  sitename = "colin.cafe"
+  defaultColor = "light" # set default color mode: dark or light
+  description = "description"
+
+[params.author]
+  avatar = "avatar.jpg" # put the file in asset
+  # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
+  intro = "colin.cafe"
+  name = ""
+  description = ""
