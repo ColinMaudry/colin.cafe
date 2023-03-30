@@ -1,5 +1,5 @@
 title = "colin.cafe"
-baseURL = 'https://colin.cafe'
+baseURL = 'https://colin.cafe/'
 languageCode = 'fr-FR'
 theme = "hugo-blog-awesome"
 
