@@ -2,6 +2,7 @@ title = "colin.cafe"
 baseURL = 'https://colin.cafe/'
 languageCode = 'fr-FR'
 theme = "hugo-blog-awesome"
+defaultContentLanguage = "fr"
 
 # Enable emojis globally
 enableEmoji = true
